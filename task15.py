@@ -16,10 +16,10 @@ max = 1
 min = 1
 
 for i in range(N):
-    temp = int(input("Введи массу арбуза: "))
+    temp = int(input("Введите массу арбуза: "))
     if temp > max:
         max = temp
     elif temp < min:
         min = temp
-        
+
 print(min, max)
