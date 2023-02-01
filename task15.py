@@ -13,7 +13,7 @@
 
 N = int(input("Введите количество арбузов: "))
 max = 1
-min = 1
+min = 10
 
 for i in range(N):
     temp = int(input("Введите массу арбуза: "))
